@@ -15,7 +15,7 @@ export class AddStudentComponent implements OnInit {
   submitted = false;  
   
   ngOnInit() {  
-    this.submitted=false;  
+    this.submitted=false;   
   }  
   
   studentsaveform=new FormGroup({  
@@ -41,7 +41,7 @@ export class AddStudentComponent implements OnInit {
     this.student = new Student();  
   }  
   
-  get StudentName(){  
+  get StudentName()  {  
     return this.studentsaveform.get('student_name');  
   }  
   

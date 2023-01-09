@@ -87,7 +87,7 @@ export class StudentListComponent implements OnInit {
     error => console.log(error));  
   }  
   
-  get StudentName(){  
+  protected get StudentName(){  
     return this.studentupdateform.get('student_name');  
   }  
   
